@@ -1,0 +1,104 @@
+body{
+    background-image: url("/images/image2.jfif");
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.row{
+    width: 360px;
+    height: auto;
+    margin:auto;
+
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.containeer{
+    background: #e0e7eb;
+    padding: 5px;
+}
+ h1,.sign-form {
+     color: rgb(139, 139, 139);
+
+
+     font-size: 2em;
+     font-family: 'Ropa Sans', sans-serif;
+     font-weight: normal;
+     letter-spacing: -1px;
+     margin-top: 12px;
+ }
+
+.col{
+
+}
+.login-form {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+
+
+
+}
+.login-form div{
+    padding: 5px 3px;
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+.login-form span{
+    font-family: 'Ropa Sans', sans-serif;
+    display: block;
+    color: rgb(139,139,139);
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.login-form input[type="text"],.login-form input[type="password"]{
+    width: 90%;
+    display: block;
+    padding: 8px;
+    color: rgb(139, 139, 139);
+    background:#fcfcfc;
+    outline: none;
+    font-size:0.8125em;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -moz-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -o-box-shadow:inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-appearance:none;
+}
+
+
+
+
+
+.new-account{
+    padding: 10px;
+}
+
+button{
+    background: cornflowerblue;
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+button a {
+    text-decoration: none;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    color: white;
+}
+
+}

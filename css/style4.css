@@ -1,0 +1,69 @@
+body{
+    background-image: url("/images/image3.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.row{
+    width: 360px;
+    height: auto;
+    margin:auto;
+
+    margin-top: 50px;
+    padding: 5px;
+}
+.sign-form,legend,p{
+    color: rgb(139, 139, 139);
+
+    margin-top: 0;
+    font-size: 1em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-top: 12px;
+}
+.containeer{
+    background: #e0e7eb;
+    padding: 5px;
+
+}
+form{
+    padding: 10px;
+    font-family:'Ropa Sans', sans-serif;
+}
+
+.form-control{
+    width: 90%;
+    display: block;
+    padding: 8px;
+    color: rgb(139, 139, 139);
+    background:#fcfcfc;
+    outline: none;
+    margin-bottom:15px ;
+    font-size:0.8125em;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -moz-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -o-box-shadow:inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-appearance:none;
+}
+button{
+   background: cornflowerblue;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    color: white;
+}
+

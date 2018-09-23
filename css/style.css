@@ -1,0 +1,25 @@
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background:#F8FBFB;
+}
+.form-group input[type="text"],.form-group input[type="password"]{
+    width: 20%;
+    display: block;
+    padding: 8px 20px;
+    color: rgb(139, 139, 139);
+    background:#fcfcfc;
+    outline: none;
+    font-size:0.8125em;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -moz-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+    -o-box-shadow:inset 0px 0px 3px rgb(199, 199, 199);
+    -webkit-appearance:none;
+}
+.btn-primary
+{
+
+}

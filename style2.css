@@ -1,0 +1,242 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#F8FBFB;
+
+    overflow: none;
+}
+
+.main-header{
+    background: url("images/header.jpg");
+    background-size: cover;
+    padding: 40px;
+    color: black;
+    text-align: right;
+}
+
+.main-nav{
+    background-color: #13130D;
+    overflow: hidden;
+}
+.main-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav ul li{
+  float: left;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    display:block;
+    text-align: center;
+}
+.main-nav ul li a:hover{
+    background-color: #515741;
+}
+.main-nav ul li a.active{
+    background-color: #4CAF50;
+}
+.fa{
+    color: lightgrey;
+}
+
+
+/*boook appointment*/
+.containeer{
+    background: #e0e7eb;
+    padding: 5px;
+    width: 400px;
+    height: 600px;
+    margin:auto;
+
+    margin-top: 20px;
+
+}
+.book{
+    font-family: 'Ropa Sans', sans-serif;
+}
+.mainhead h2{
+
+    text-transorm:none;
+    color: rgb(139, 139, 139);
+    font-size: 30px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-top: 2px;
+    text-align: center;
+
+}
+.formlist label{
+    width: 20px;
+    font-size: 22px;
+    margin-bottom: 3px;
+    padding: 10px;
+    height: 20px;
+}
+.formlist select{
+    background: #0563af;
+    color:#fff;font-size: 20px;
+    padding: 10px 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+  box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    outline: none;
+}
+.formlist input[type="text"]
+{
+    width: 60%;
+    display: block;
+    padding: 8px;
+    color: rgb(139, 139, 139);
+    background:#fcfcfc;
+    outline: none;
+    font-size:0.8125em;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+}
+
+.formlist input[type="submit"]
+{
+    width: 50%;
+background: #3285d1;
+font-size: 25px;
+border-radius: 6px;
+box-shadow: 0px 0px 3px rgb(207, 206, 206);
+text-transform: uppercase;
+color: #fff;
+font-family: 'Ropa Sans', sans-serif;
+float: left;
+margin-top: 10px;
+padding: 15px 24px;
+
+}
+
+.
+.formlist1 label{
+    width: 20px;
+    font-size: 22px;
+    margin-bottom: 3px;
+    padding: 10px;
+    height: 20px;
+
+}
+.formlist1 input[type="date"]
+{
+    font-size: 20px;
+    width: 60%;
+    padding-bottom: 3px;
+}
+
+
+
+
+/*about section*/
+
+.about-section{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+}
+.about-section h2{
+    color: #13130D;
+}
+.clients-images img{
+    width: 270px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+/*---user profile---*/
+
+.user-prof{
+    margin: 0;
+    padding: 0;
+}
+.conatiner{
+
+    background: #e0e7eb;
+    padding: 10px;
+    width: 400px;
+    height: 750px;
+    margin:auto;
+    margin-top: 20px;
+}
+.new h3{
+    color: rgb(139, 139, 139);
+
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-top: 12px;
+    text-align: center;
+}
+.new1{
+color: #3285d1;
+    font-family: 'Open Sans', sans-serif;
+    font-size:25px ;
+    padding: 5px;
+
+}
+.new2 label{
+
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding-bottom: 5px;
+
+}
+.new2 input[type="text"],.new2 input[type="email"],.new2 input[type="password"]
+{
+    width: 90%;
+    display: block;
+    padding: 8px;
+    color: rgb(139, 139, 139);
+    background:#fcfcfc;
+    outline: none;
+    font-size:0.8125em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.radiobox label{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+.radiobox input[type="radio"]
+{
+    font-size: 10px;
+    width: 50px;
+    padding: 5px 5px;
+}
+
+button{
+    background-color: #0563af;
+    width: 30%;
+    margin-top: 15px;
+    color: white;
+    height: 25%;
+    border: 1px solid #338033;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+
+}
+button:hover{
+    color: black;
+    box-shadow: 2px 2px rgb(139, 139, 139);
+
+}

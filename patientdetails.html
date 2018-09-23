@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>book appointment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome.min.css">
+    <link href="style2.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+    <h1>HOSPITAL PATIENT PAGE</h1>
+</header>
+
+    <nav class="main-nav">
+        <ul>
+            <li class="dropdown">
+                <a href="userprofile.html"><i class="fa fa-user" aria-hidden="true"></i>
+                USER PROFILE</a>
+
+            </li>
+
+            <li>
+                <a href="patientdetails.html" class="active"><i class="fa fa-book" aria-hidden="true"></i> BOOK APPOINTMENT</a>
+            </li>
+            <li>
+                <a href="appointment history.html">APPOINTMENT HISTORY</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT HOSPTIAL</a>
+            </li>
+            <li>
+                <a href="login.html">LOGOUT</a>
+            </li>
+        </ul>
+    </nav>
+
+
+<!--book appintment-->
+
+    <div class="containeer">
+        <div class="book">
+            <form>
+                <div class="mainhead">
+                       <h2>Book an Appointment</h2>
+                </div>
+                <div class="formlist">
+                   <label>Doctor specalist</label><br>
+                    <select>
+                        <option value="orthopedic">orthopedic</option>
+                        <option value="orthopedic">diabetis</option>
+                         <option value="orthopedic">normal checkup</option>
+                        <option value="orthopedic">emergency checkup</option>
+                        <option value="orthopedic">others</option>
+
+                     </select><br>
+                </div>
+                  <div class="formlist">
+                      <label>Doctors</label><br>
+                       <select>
+
+                          <option value="Raghavendra">DR.Raghavendra</option>
+                          <option value="Raghavendra">DR.Harish Raju</option>
+                           <option value="Raghavendra">DR.Srinivas</option>
+
+                </select><br>
+                  </div>
+
+                 <div class="formlist1">
+                      <label>Date</label><br>
+                      <input type="date"><br>
+                 </div>
+
+                 <div class="formlist">
+                <label>Time</label><br>
+                   <select>
+                         <option value="selctdate">date of checkup</option>
+                         <option value="time">morning-9am</option>
+                         <option value="time">afternoon-2pm</option>
+                       <option value="time">evening-6pm</option>
+                   </select><br>
+                 </div>
+
+                  <div class="formlist">
+                   <label>consulatnt fee</label><br>
+                   <input type="text" value="700" name="fee"><br>
+                </div>
+
+                 <div >
+                     <button input type="submit" value="submit" name="submit">submit</button>
+                </div>
+            </form>
+
+        </div>
+
+     </div>
+
+    </nav>
+</header>
+
+</body>
+</html>

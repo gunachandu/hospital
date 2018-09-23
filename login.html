@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+    <link href="css/style3.css" rel="stylesheet" type="text/css">
+
+</head>
+<body >
+
+<div class="row">
+    <div class="col" >
+        <h1>patient login</h1>
+    </div>
+      <div class="containeer">
+         <div class="login-form">
+             <form name="vform">
+                 <div>
+                     <span><label>user name</label></span>
+                 <br>
+                     <span> <input type="text" name="username" value="" placeholder="enter username" required></span>
+                 </div>
+                 <div>
+                     <span> <label>password</label></span>
+                     <br>
+                     <span> <input type="password" name="password" placeholder="enter password" required ></span>
+                 </div>
+
+                 <div>
+                     <button type="submit"  id="submit" name="submit">
+                         <a href="userprofile.html">  Submit</a>
+                        </button><br>
+                 </div>
+
+                 <div  class="new-account">
+                     <p>Already have a acoount?
+                         <a href="registration.html">create account</a></p>
+                 </div>
+             </form>
+         </div>
+      </div>
+      </div>
+         </div>
+    </div>
+
+</body>
+
+
+</body>
+</html>
+
+<script type="text/javascript">
+  var username=document.forms['vforms']["username"];
+  var password=document.forms['vforms']["password"];
+
+  var name_error=document.getElementById("name_error");
+  var password_error=document.getElementById("password_error");
+  </script>
